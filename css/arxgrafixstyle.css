@@ -34,6 +34,7 @@
 
 /*--- 1. Default css starts ---*/
 
+
 html,body{
     height: 100%;
 }
@@ -316,7 +317,6 @@ img {
     text-transform: uppercase;
     font-size: 25px;
     display: block;
-    color: #ffffff;
     font-weight: 800;
 }
 
