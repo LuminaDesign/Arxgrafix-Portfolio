@@ -321,10 +321,20 @@ img {
 }
 
 .logo {
-    padding: 5px;
-    font-size: 32px;
-    letter-spacing: 3px;
+    padding: 5px;            /* Padding around the logo */
+    width: 50px;            /* Set a specific width for the logo */
+    height: auto;           /* Maintain aspect ratio */
+    font-size: 32px;        /* Adjust font size if needed (less relevant for SVG) */
+    letter-spacing: 3px;    /* Letter spacing if you have text */
+    display: block;         /* Ensures it behaves like a block element */
+    transition: fill 0.3s;  /* Smooth transition for hover effects */
 }
+
+/* Optional: Change color on hover */
+.navbar-brand:hover .logo {
+    fill: #ffcc00;          /* Example hover color */
+}
+
 
 .navbar-brand:focus, .navbar-brand:hover {
     text-decoration: none;
